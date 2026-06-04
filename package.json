@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc -b && node dist/index.js "
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,10 @@
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.6.3",
     "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.9.1"
   }
 }
